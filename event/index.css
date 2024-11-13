@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.sidebar {
+  height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.sidebar-light {
+  background-color: rgb(126, 114, 255);
+  color: rgb(47, 44, 80);
+}
+
+.sidebar-dark {
+  background-color: rgb(47, 44, 80);
+  color: rgb(126, 114, 255);
+}
+
+.sidebar h3 {
+  color: inherit;
+}
+
+.nav-link {
+  color: inherit;
+}
+
+.nav-link:hover {
+  background-color: rgb(136, 125, 250);
+}
+
+.form-check-label {
+  color: inherit;
+}
+
+.main .input-wrapper {
+  margin-top: 20px;
+}
+
+input {
+  color: rgb(76, 71, 132);
+  background-color: rgba(164, 156, 255, 0.411);
+}
+
+#btn {
+  background-color: rgb(126, 114, 255);
+  
+  color: white;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.white-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card-dark {
+  background-color: #424242;
+  color: #ffffff;
+}
+
+.card-light {
+  background-color: #ffffff;
+  color: #000000;
+}
